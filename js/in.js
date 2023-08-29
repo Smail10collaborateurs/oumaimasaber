@@ -151,7 +151,7 @@ var swiper = new Swiper(".bg-slider-thumbs", {
       swiper: swiper,
     },
     autoplay: {
-      delay: 5000, 
+      delay: 50000, 
       disableOnInteraction: false,
     },
   });
