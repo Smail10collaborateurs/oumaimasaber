@@ -90,7 +90,6 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   caret-color: transparent !important;
-  cursor: auto !important;
 }
 
 /* * {
@@ -117,7 +116,6 @@ a{
 }
 .container {
   max-width: 1120px;
-  margin-inline: 1.5rem;
 }
 * {
   box-sizing: border-box;
@@ -188,6 +186,7 @@ ul {
 .nav__close{
   display: flex;
   font-size: 1.25rem;
+  margin: 5px;
   color: var(--title-color);
   cursor: pointer;
 }
