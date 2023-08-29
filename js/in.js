@@ -185,23 +185,8 @@ items.forEach((item, i) => {
 })
 
 
-
-
-// for image collection
-// let NumOfColections1=document.getElementsByClassName('collection1 hero-img').length
-
-// let NumOfColections2=document.getElementsByClassName('hero-img').length
-// let NumOfColections3=document.getElementsByClassName('hero-img').length
-// let NumOfColections4=document.getElementsByClassName('hero-img').length
-// console.log(NumOfColections1,NumOfColections2,NumOfColections3,NumOfColections4);
-
-
-
 function handleResize() {
-  // console.log(window.innerWidth);
   const collections = document.querySelectorAll('.collection');
-
-  // console.log(collections);
   collections.forEach(collection => {
     const images = collection.querySelectorAll('.hero-img');
     browserWidth=window.innerWidth
@@ -214,7 +199,6 @@ function handleResize() {
           images[2].remove()
           break;
       }
-      // console.log('si');
     }
     if (browserWidth <= '768') {
       switch (images.length) {
