@@ -191,7 +191,7 @@ ul {
 .nav__toggle,
 .nav__close{
   display: flex;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   margin: 5px;
   color: var(--title-color);
   cursor: pointer;
