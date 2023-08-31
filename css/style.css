@@ -1178,7 +1178,7 @@ ul {
 /* For small devices */
 @media screen and (max-width:480px) {
   .swiper-slide .text-content{
-    top: 34%;
+    top: 37%;
   }
   .p-box p{
     font-size: .93rem !important;
